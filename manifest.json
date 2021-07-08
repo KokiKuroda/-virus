@@ -1,0 +1,12 @@
+{
+  "name": "あなたのサイトぶっ壊しマン",
+  "description": "サイトぶっ壊します",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
